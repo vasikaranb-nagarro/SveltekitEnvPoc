@@ -28,7 +28,7 @@ importers:
     dependencies:
       '@repo/ui':
         specifier: workspace:*
-        version: link:../../packages/ui2
+        version: link:../../packages/ui
     devDependencies:
       '@playwright/test':
         specifier: ^1.42.1
@@ -82,6 +82,9 @@ importers:
   apps/web:
     dependencies:
       '@repo/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      '@repo/ui2':
         specifier: workspace:*
         version: link:../../packages/ui2
     devDependencies:

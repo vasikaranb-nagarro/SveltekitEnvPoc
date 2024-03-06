@@ -6,6 +6,7 @@
   }
 </script>
 
+<h3>From UI 2</h3>
 <button on:click={handleClick}>
   clicks: {count}
 </button>
